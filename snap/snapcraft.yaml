@@ -81,6 +81,7 @@ apps:
       - network
       - home
       - removable-media
+      - serial-port
 
   dockerd:
     command: bin/dockerd-wrapper
@@ -96,6 +97,7 @@ apps:
       - support
       - gpu-2404
       - graphics-core22
+      - serial-port
     slots:
       - docker-daemon
 
